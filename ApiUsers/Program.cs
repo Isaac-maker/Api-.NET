@@ -70,7 +70,7 @@ app.MapPut("/update-post", async (Post postToUpdate) =>
 
     if (updateSucceful)
     {
-        return Results.Ok("Actualizado correctamente");
+        return Results.Ok("Actualizado correctamente papillo");
     }
     else
     {
